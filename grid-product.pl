@@ -51,7 +51,7 @@ for 0..19 -> $x {
 # diagonal
 for 0 .. 16 -> $x {
     for 0 .. 16 -> $y {
-        $max = $max max prod($x, $y,     1, 1)
+        $max = $max max prod($x, $y, 1, 1)
                     max prod($x, $y + 3, 1, -1);
     }
 }
